@@ -75,11 +75,55 @@ body {
     width: 25px;
     height: 25px;
     background-color: goldenrod;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px gold;
+    z-index: 4;
+}
+
+#arrows div {
+    background-color: white;
+    width: 8px;
+    transform-origin: bottom center;
+    bottom: 50%;
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+    box-shadow: 1px 1px 2px gold;
+    z-index: 3;
+
+}
+
+#arrows .hours {
+    height: 200px;
+    transform: rotate(30deg);
+}
+
+#arrows .seconds {
+    height: 140px;
+    transform: rotate(250deg);
+}
+
+#arrows .minutes {
+    height: 170px;
+    transform: rotate(180deg);
+}
+
+#new-date {
+    margin: 0px auto;
+    border: 2px solid gold;
+    padding: 10px 0px 10px 15px;
+    width: 500px;
+    margin-top: 10px;
+
 }
 
 
 
-/* .hours{
+/* 
+
+NB----------Z INDEX CHECK UP
+
+
+.hours{
 
 } */
 
