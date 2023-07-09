@@ -39,25 +39,26 @@ body {
 
                     /*the transform(translate) function is applied to the second element*/
 .tweleve {
-    right: 50%;
-    bottom: 90%
-    /*transform: translateY(-50%)*/;
+    right: 47%;
+    bottom: 88%;
+    transform: translateY(-47%);
 }
 
 .three {
-    left: 93%;
-    transform: translateX(-90%)
+    left: 95%;
+    bottom: 47%;
+    transform: translateX(-95%)
 }
 
 .six {
+    right: 47%;
     top: 95%;
-    right: 50%;
-    transform: translateY(-90%) 
+    transform: translateY(-47%) 
 }
 
 .nine {
     right: 90%;
-    bottom: 45%;
+    bottom: 47%;
     transform: translateX(-90%)
 }
 
